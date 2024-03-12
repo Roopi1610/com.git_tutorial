@@ -36,4 +36,12 @@ public class FbTest {
 		
 		Assert.assertEquals(actual_title, "Facebook - log in or sign up");
 	}
+	
+	@Test
+	public void verifyUrl()
+	{
+		String actual_url = driver.getCurrentUrl();
+		
+		Assert.assertEquals(actual_url, "https://www.facebook.com/");
+	}
 }
