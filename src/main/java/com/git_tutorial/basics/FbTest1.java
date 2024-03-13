@@ -9,7 +9,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class FbTest {
+public class FbTest1 {
 	
 	WebDriver driver;
 	@BeforeTest
@@ -34,3 +34,5 @@ public class FbTest {
  {
        System.out.println("Test case 1");
  }
+
+}
